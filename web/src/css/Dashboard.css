@@ -1,0 +1,116 @@
+.dashboard--columns{
+  display: flex;
+  
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.wait-list{
+    display:flex;
+    flex-direction: column;
+    padding: 0 1%;
+    margin-left: 40px;
+    margin-top: 60px;
+    padding: 1rem;
+    
+    background-color: rgba(107, 107, 107, 0.253);
+    
+}
+.waiting-booking{
+    border-top: 2px solid rgba(128, 128, 128, 0.288);
+}
+.waitlist-buttons{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.waitlist-buttons a{
+    margin-right:1%;
+    margin-bottom: 1rem;
+}
+
+  dt {
+    float: left;
+    clear: left;
+    width: 170px;
+    text-align: right;
+    font-weight: bold;
+    color: rgba(114, 42, 1, 0.808);
+  }
+  dt::after {
+    content: ":";
+  }
+  dd {
+    margin: 0 0 0 190px;
+    padding: 0;
+  }
+
+  .brand-ccfat{
+    font-size: 2rem;
+    text-decoration: none;
+    color:rgba(255, 140, 73, 0.877);
+    margin-left: 2%;
+    font-weight: 450;
+  }
+  .brand-ccfat:hover{
+  
+    text-decoration: none;
+    color:rgba(255, 140, 73, 0.877);
+    
+  }
+  .Menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, rgba(78, 78, 78, 0.836), rgb(0, 0, 0));;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+  
+  }
+  .Menu > li:nth-child(8) {
+      height: 400px;
+  }
+  
+  .Menu-item{
+    
+    padding: 5%;
+    border-bottom: 1px solid rgba(255, 249, 249, 0.199);
+    background-color:transparent; 
+  }
+  .Menu-item:hover{
+    background-color: rgba(44, 46, 51, 0.808);
+    text-decoration: none;
+  }
+  .active.Menu-item{
+    background-color: rgba(44, 46, 51, 0.808);
+    text-decoration: none;
+    border-right: 3px solid rgba(255, 140, 73, 0.945);
+   
+  }
+  .active > li{
+    color: rgba(255, 140, 73, 0.945);
+  }
+  
+  
+  .Menu-item-text{
+    color: #dfe3e8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+  }
+  
+  .Menu-item:hover > .Menu-item-text{
+    color: rgba(255, 140, 73, 0.945);
+    
+   
+  }

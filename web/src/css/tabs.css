@@ -1,0 +1,25 @@
+.MakeBookingWrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.DatePicker{
+  padding:2%;  
+  margin-top: 30px;
+  grid-column: span 2;
+  justify-self: center;
+}
+.BookingTable{
+    grid-column: span 4;
+    justify-self: center;
+    margin-top: 30px;
+
+}
+.bookingForm{
+  padding: 5%;
+  grid-column: span 3;
+  margin-top: 10px;
+}
+.stopTime{
+  
+  margin-left: 35px;
+}

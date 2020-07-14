@@ -1,0 +1,128 @@
+body {background:#ccc}
+.timetable{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+ }
+ 
+ .timetable--header{
+   align-self: center;
+   padding: 2%
+ }
+ 
+ .Table-wrapper{
+    
+ }
+ .Table{
+  display: block;
+    margin-top: 1%;
+    width: 96%;
+    align-self: center ;
+    background-color: #ffffff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+overflow: scroll;
+
+}
+
+
+
+body{
+  background-color: white;
+}
+
+.cardStyle{
+  margin: 200px 200px; 
+  align-items: center;
+  padding: 2%;  
+  background-color: rgb(255, 255, 255); 
+}
+/* -------------FEEDBACK PAGE------------------------- */
+.feedbackCard {
+
+  margin: 50px 200px;
+  background-color: azure;
+  box-shadow: black;
+  text-align: center;
+  padding: 10%;
+
+}
+.feedbackCard button{
+  margin: 1rem;
+}
+
+/*---------------------------------------*/
+.HeaderBar{
+  
+}
+
+html,body{
+  height: 100%;
+}
+.container{
+  width: 100%;
+  
+}
+.brand-ccfat{
+  font-size: 2rem;
+  text-decoration: none;
+  color:rgba(255, 140, 73, 0.877);
+  margin-left: 2%;
+  font-weight: 450;
+}
+.brand-ccfat:hover{
+
+  text-decoration: none;
+  color:rgba(255, 140, 73, 0.877);
+  
+}
+.Menu{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  background-image: linear-gradient(to bottom, rgba(78, 78, 78, 0.836), rgb(0, 0, 0));;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+
+}
+.Menu > li:nth-child(8) {
+    height: 400px;
+}
+
+.Menu-item{
+  
+  padding: 5%;
+  border-bottom: 1px solid rgba(255, 249, 249, 0.199);
+  background-color:transparent; 
+}
+.Menu-item:hover{
+  background-color: rgba(44, 46, 51, 0.808);
+  text-decoration: none;
+}
+.active.Menu-item{
+  background-color: rgba(44, 46, 51, 0.808);
+  text-decoration: none;
+  border-right: 3px solid rgba(255, 140, 73, 0.945);
+ 
+}
+.active > li{
+  color: rgba(255, 140, 73, 0.945);
+}
+
+
+.Menu-item-text{
+  color: #dfe3e8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+}
+
+.Menu-item:hover > .Menu-item-text{
+  color: rgba(255, 140, 73, 0.945);
+  
+ 
+}
+

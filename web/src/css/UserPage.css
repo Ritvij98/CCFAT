@@ -1,0 +1,20 @@
+.userpage_wrapper{
+ 
+}
+.userpage_header{
+
+}
+.userpage_content{
+
+    height:700px;
+    margin-top: 70px;
+    overflow-y:auto; 
+    overflow-x:auto;
+}
+.userpage_footer{
+    color:rgb(141, 141, 250);
+    background-color:#1c2331;
+    text-emphasis: bold;
+    text-decoration: none;
+  
+}

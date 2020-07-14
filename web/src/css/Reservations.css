@@ -1,0 +1,17 @@
+.reservations__route--header{
+display: flex;
+align-items: center;
+}
+.reservations__route--header h1{
+  flex:2
+    
+}
+.reservations__route--button{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.reservations__route--searchbar{
+    width: 20%;
+    margin-left: auto;
+    margin-right: 1rem;
+}

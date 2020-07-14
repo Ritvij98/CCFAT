@@ -1,0 +1,14 @@
+
+.LoginPage{
+  display: flex;
+  flex-direction: column;
+
+}
+.loginbox{
+ padding: 2%;   
+
+ 
+ padding:"2rem";
+  margin:"2rem 0"
+
+}
