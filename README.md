@@ -1,6 +1,5 @@
 # Central Computing Facility Automation Tool (CCFAT)
 
-![CI](https://example.com/ci-badge.svg)
 
 ## About the Project
 CCFAT replaces manual, Excel-based lab reservations with a ⚡ MERN portal.
