@@ -74,14 +74,14 @@ cd server/ && npm start
 #### Wireframes
 | Login (lo-fi) | Booking page (lo-fi) |
 |--------------|----------------------|
-| ![Wireframe Login](assets/ccfat_wireframe_login.png) | ![Wireframe Booking](assets/ccfat_wireframe_booking.png) |
+| ![Wireframe Login](https://github.com/user-attachments/assets/2d459681-4ef4-4354-83c7-b587b30171b0) |![Wireframe Booking](https://github.com/user-attachments/assets/86f9cfd3-9e26-460b-ac45-cffe4341b382) |
 #### Live Application
 | Login (prod) | Check Availability (prod) |
 |--------------|---------------------------|
-| ![App Login](assets/ccfat_app_login.png) | ![App Availability](assets/ccfat_app_check_availability.png) |
+| ![App Login](https://github.com/user-attachments/assets/5ff74988-7e3d-4ea6-be73-686f2810ab16) | ![App Availability](https://github.com/user-attachments/assets/55e5e7c7-0d27-4c92-90cc-05e37a33ff06) |
 
 |------------------------|
-| ![Admin Dashboard](assets/ccfat_app_admin_dashboard.png) |
+| ![Admin Dashboard](https://github.com/user-attachments/assets/8fe3d07f-856e-4124-a3ac-bb423fa197a3) |
 
 ## Roadmap / Future Work
 - Multi-lab support
