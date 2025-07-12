@@ -92,5 +92,3 @@ Fork the repo, clone, create a branch, commit, and open a PR. Follow ESLint/Pret
 ## License
 MIT
 
-## Contact & Acknowledgements
-Author – Manipal Institute of Technology. Mentor guidance appreciated. 🛠️
