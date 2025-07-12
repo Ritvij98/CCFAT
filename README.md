@@ -80,8 +80,6 @@ cd server/ && npm start
 |--------------|---------------------------|
 | ![App Login](https://github.com/user-attachments/assets/5ff74988-7e3d-4ea6-be73-686f2810ab16) | ![App Availability](https://github.com/user-attachments/assets/55e5e7c7-0d27-4c92-90cc-05e37a33ff06) |
 
-|------------------------|
-| ![Admin Dashboard](https://github.com/user-attachments/assets/8fe3d07f-856e-4124-a3ac-bb423fa197a3) |
 
 ## Roadmap / Future Work
 - Multi-lab support
