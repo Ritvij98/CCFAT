@@ -6,6 +6,8 @@
 CCFAT replaces manual, Excel-based lab reservations with a ⚡ MERN portal.
 
 ## Table of Contents
+- [Problem--Solution](#problem--solution)
+- [User-Roles--Permissions](#user-roles--permissions)
 - [Features](#features)
 - [Tech-Stack](#tech-stack)
 - [Getting-Started](#getting-started)
@@ -15,6 +17,24 @@ CCFAT replaces manual, Excel-based lab reservations with a ⚡ MERN portal.
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact--Acknowledgements](#contact--acknowledgements)
+
+## Problem & Solution 🚧➡️🛠️
+Booking a CCF lab at MAHE currently means endless back-and-forth calls, emails and Excel updates. Every request must hop from staff → CCF staff → lab in-charge, risking clashes, omissions and zero visibility for other users.
+
+**CCFAT** replaces this tangle with a single MERN-stack portal:
+* anyone with campus credentials logs in, sees a live timetable and requests a slot in seconds;
+* the in-charge reviews requests from an approval queue;
+* confirmations (or rejections) are emailed automatically;
+* bookings, users and recurring PSUC class blocks are stored centrally, powering usage analytics.
+
+The same pattern can be extended to any lab or shared resource on campus.
+
+## User Roles & Permissions 🔒
+| Role | Capabilities | Typical Screen |
+|------|--------------|----------------|
+| **MAHE Staff / Student** | View timetable; request & cancel own bookings | User Booking UI |
+| **CCF Staff** | Approve / decline requests; manage recurring PSUC slots; see upcoming reservations | Admin Dashboard |
+| **Administrator** | CRUD on users, departments & institutes; generate usage reports; full audit trail | Admin Records UI |
 
 ## Features
 - Login/signup
@@ -55,13 +75,11 @@ cd server/ && npm start
 | Login (lo-fi) | Booking page (lo-fi) |
 |--------------|----------------------|
 | ![Wireframe Login](assets/ccfat_wireframe_login.png) | ![Wireframe Booking](assets/ccfat_wireframe_booking.png) |
-
 #### Live Application
 | Login (prod) | Check Availability (prod) |
 |--------------|---------------------------|
 | ![App Login](assets/ccfat_app_login.png) | ![App Availability](assets/ccfat_app_check_availability.png) |
 
-| Admin Dashboard (prod) |
 |------------------------|
 | ![Admin Dashboard](assets/ccfat_app_admin_dashboard.png) |
 
